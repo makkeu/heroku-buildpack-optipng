@@ -20,4 +20,4 @@ chmod +x optipng/bin/optipng
 echo "exporting PATH" | indent
 PROFILE_PATH="$BUILD_DIR/.profile.d/optipng.sh"
 mkdir -p $(dirname $PROFILE_PATH)
-echo 'export PATH="$PATH:vendor/optipng/bin"' >> $PROFILE_PATH
+echo 'export PATH="$PATH:$HOME/vendor/optipng/bin"' >> $PROFILE_PATH
